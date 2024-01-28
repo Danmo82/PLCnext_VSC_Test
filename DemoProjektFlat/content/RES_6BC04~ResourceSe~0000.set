@@ -25,4 +25,8 @@ RESOURCE IEC 61131-3
 )}
 
 
+TASK Cyclic10 (INTERVAL := T#10ms, PRIORITY := 0) { Watchdog(T#100ms), Id('56cd51bd-0b73-4c8e-9c36-b204d7d981c2') };
+
+PROGRAM Main1 WITH Cyclic10 : Main { Id('180ff404-687f-4fdb-93a3-0e7fab9798e5') };
+
 END_RESOURCE

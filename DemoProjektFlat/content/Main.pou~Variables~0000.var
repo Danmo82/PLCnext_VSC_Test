@@ -1,0 +1,5 @@
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+
+VAR
+    xInit : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a5ecbdc3-f811-479d-a263-4f27f3c7b410')};
+END_VAR

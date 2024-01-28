@@ -103,6 +103,16 @@
         <file name="TemplateFunction.htm" id="HelpTempl~TemplateFu~0000.htm" />
         <file name="TemplateFunctionBlock.htm" id="HelpTempl~TemplateFu~0001.htm" />
       </folder>
+      <folder name="Main.pou">
+        <file name="Metadata.meta" id="Main.pou~Metadata~0000.meta" />
+        <file name="Variables.var" id="Main.pou~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="Main.pou~VersionHist~0000.usermeta" />
+        <file name="Description.html" id="Main.pou~Description~0000.html" />
+        <file name="Description.rtf" id="Main.pou~Description~0001.rtf" />
+        <file name="Variables.var.locres" id="Main.pou~Variables.v~0000.locres" />
+        <file name="User.locres" id="Main.pou~User~0000.locres" />
+        <file name="Code.st" id="Main.pou~Code~0000.st" />
+      </folder>
     </folder>
   </folder>
 </content>

@@ -208,6 +208,11 @@
          <TypeRevision>00/1.00</TypeRevision>
          <ParentIndex>6</ParentIndex>
       </Folder>
+      <Folder Include="Logical Elements\Main.pou">
+         <Id>77f86f85-8c15-4ead-a163-cbfc84c35bb4</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
    </ItemGroup>
    <ItemGroup>
       <TopologyDocument Include="Hardware\9d61ed1b-c41d-4e2e-8216-2b402089240d.topology">
@@ -287,12 +292,27 @@
          <Id>bb7f0ddc-2f1c-470a-8101-ff3777b0f948</Id>
          <ParentIndex>11</ParentIndex>
       </UserMetadata>
+      <UserMetadata Include="Logical Elements\Main.pou\VersionHistory.usermeta">
+         <Id>d4273844-fa8a-4657-903d-a5583fe65417</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
    </ItemGroup>
    <ItemGroup>
       <UserMetadataDescription Include="Hardware\Description.html">
          <Id>cd6a3048-8605-4562-8a03-863c30d9a15c</Id>
          <Visible>False</Visible>
          <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Main.pou\Description.html">
+         <Id>89284293-6576-4ac0-9991-c7bf20f59d2f</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Main.pou\Description.rtf">
+         <Id>85e6ffc3-a87a-4afc-9c70-982baff2680c</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
       </UserMetadataDescription>
    </ItemGroup>
    <ItemGroup>
@@ -331,6 +351,12 @@
       <CodeWorksheet Include="Watch Window\Document.ww">
          <Id>c6f601ab-849c-4069-8792-0807bc76d567</Id>
          <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
+         <Id>42ed0126-5d9a-4887-a4c6-632f6b226a25</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
       </CodeWorksheet>
    </ItemGroup>
    <ItemGroup>
@@ -712,6 +738,11 @@
          <Visible>false</Visible>
          <ParentIndex>3</ParentIndex>
       </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Main.pou\Variables.var">
+         <Id>d559f093-bfa9-489c-9203-9ce3acd5f27e</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
    </ItemGroup>
    <ItemGroup>
       <MetaLibrary Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\RES_6BC04B3B320E4BC3AE77C0DB99B644BC\Arp.Plc.Eclr.libmeta">
@@ -960,5 +991,34 @@
          <ProtocolName>AXLF</ProtocolName>
          <ParentIndex>2</ParentIndex>
       </ParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
+         <Id>17bcdc51-8529-437f-9c90-20340f979ea1</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <LocalResourcesListDocument Include="Logical Elements\Main.pou\Resources.locreslst">
+         <Id>22e54e3c-c31b-47c5-b59f-dc2d7000841a</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <LocalResources Include="Logical Elements\Main.pou\Variables.var.locres">
+         <Id>3089d561-c8c1-44bd-b257-604df15f1311</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Main.pou\User.locres">
+         <Id>69dca966-a7de-4f18-978c-9eee16a71560</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
    </ItemGroup>
 </Project>
