@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EsmConfiguration id="138cb12d-1738-4971-b381-8ef6eca83cee" version="2" importRevision="1">
+	<Esms>
+		<Esm id="e27e0e5b-1523-435e-934c-743bb9678f25" name="ESM1" cpuAffinity="1" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
+		<Esm id="f767aa23-6f14-4bee-95f7-d5b92aeccc91" name="ESM2" cpuAffinity="2" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
+	</Esms>
+	<Tasks>
+		<Task id="1c978e25-349e-4d00-ae35-7346f4f780c8" name="SafetyProxyTask" taskType="CyclicTask" priority="0" intervalTime="5000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="f767aa23-6f14-4bee-95f7-d5b92aeccc91" readonly="True">
+			<ProgramInstances>
+				<ProgramInstance id="380d896b-6c75-4514-b51b-e83b2ab41df8" name="sproxy_1" programType="SpnsProxyProgram" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Services" componentName="Arp.Services.SpnsProxy" componentType="SpnsProxy" comment="" readonly="True" groupName="" />
+			</ProgramInstances>
+		</Task>
+	</Tasks>
+</EsmConfiguration>

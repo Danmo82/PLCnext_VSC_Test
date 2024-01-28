@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Area xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <PropertyGroup>
+      <SafetyId>453d9017-f9e5-430d-95cb-655dcd5db005</SafetyId>
+      <AdeSafetyVersion>1.0.0.4</AdeSafetyVersion>
+      <SafetyPassword>l2sLU23LFONrQXCRcRc3p4Qfv/XYKPoeVqQvf3dIqbw=</SafetyPassword>
+   </PropertyGroup>
+   <ItemGroup>
+      <Folder Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211">
+         <Id>c7cf6366-e900-4473-8fa1-99d75c1f1211</Id>
+         <FolderType>Configuration</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>0882766d-19b3-4bf4-879f-c34a591d80d4</InstanceId>
+         <TypeId>{7703C8D9-E4C0-4EF5-9397-34FB91D922C6}</TypeId>
+         <TypeName>AXC F 3152 (AXC F XT SPLC 1000)</TypeName>
+         <TypeRevision>00/2023.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\RES_25D4D3E28A834148924480A9E81D2411">
+         <Id>25d4d3e2-8a83-4148-9244-80a9e81d2411</Id>
+         <FolderType>Resource</FolderType>
+         <Type>Cortex SafetyPLC</Type>
+         <Version>1.0.0</Version>
+         <IsFixed>true</IsFixed>
+         <TypeId>L7_11</TypeId>
+         <TypeName>SafeOS</TypeName>
+         <ParentIndex>10</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\S_Main.pou">
+         <Id>c1dea4a4-7cc6-4b0f-83a2-cc5d45007350</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+   </ItemGroup>
+   <ItemGroup>
+      <SafetyParameterDocument Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\0882766d-19b3-4bf4-879f-c34a591d80d4.spar">
+         <Id>e69be35b-b7f8-47b7-9e9d-6fe72090e940</Id>
+         <ParentIndex>0</ParentIndex>
+      </SafetyParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <VariableWorksheet Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\RES_25D4D3E28A834148924480A9E81D2411\GlobalVariables.var">
+         <Id>b9572f66-dffa-40f5-89cb-6ab7aae9f706</Id>
+         <IsVarConfig>true</IsVarConfig>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\S_Main.pou\Variables.var">
+         <Id>35cdebba-bbf4-4836-b56d-d9a93fe07bcd</Id>
+         <Extension>.var</Extension>
+         <Type>.var</Type>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <EsmConfiguration Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\RES_25D4D3E28A834148924480A9E81D2411\EsmConfiguration.esmc">
+         <Id>cd092606-6b39-4940-9325-5bf0a0264729</Id>
+         <Visible>False</Visible>
+         <ParentIndex>8</ParentIndex>
+      </EsmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <SafetyStatisticDocument Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\RES_25D4D3E28A834148924480A9E81D2411\0882766d-19b3-4bf4-879f-c34a591d80d4.L7_11.sstatistic">
+         <Id>ad1e43ed-b057-44d0-b64d-c74c0e87b3d2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </SafetyStatisticDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <SafetyCockpitDocument Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\RES_25D4D3E28A834148924480A9E81D2411\0882766d-19b3-4bf4-879f-c34a591d80d4.L7_11.scockpit">
+         <Id>b7a4f08f-9469-411e-802f-f43e0846f46c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </SafetyCockpitDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <MetadataDocument Include="Logical Elements\S_Main.pou\Metadata.meta">
+         <Id>f6794210-f5ec-481e-b405-f56afa1cb6b8</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <CodeWorksheet Include="Logical Elements\S_Main.pou\Code.snold">
+         <Id>c654642e-13d5-466d-aebf-8dbd8ae27ff5</Id>
+         <Extension>.snold</Extension>
+         <Type>.snold</Type>
+         <Visible>False</Visible>
+         <LockedNetworks></LockedNetworks>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <UserMetadata Include="Logical Elements\S_Main.pou\VersionHistory.usermeta">
+         <Id>21335d0f-65c9-48ef-b8ee-ae8838947c47</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadata>
+   </ItemGroup>
+   <ItemGroup>
+      <UserMetadataDescription Include="Logical Elements\S_Main.pou\Description.html">
+         <Id>37957af2-063b-4bdd-b6c6-d9334102caa5</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\S_Main.pou\Description.rtf">
+         <Id>12a2388c-5493-43b8-9e8f-3dfac8b4e06d</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>5</ParentIndex>
+      </UserMetadataDescription>
+   </ItemGroup>
+</Area>
