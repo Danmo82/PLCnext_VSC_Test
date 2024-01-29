@@ -29,4 +29,6 @@ TASK Cyclic10 (INTERVAL := T#10ms, PRIORITY := 0) { Watchdog(T#100ms), Id('56cd5
 
 PROGRAM Main1 WITH Cyclic10 : Main { Id('180ff404-687f-4fdb-93a3-0e7fab9798e5') };
 
+PROGRAM Program11 WITH Cyclic10 : PLCnextFirmwareLibrary2.Program1 { Id('5d32030b-db1c-4267-a45b-17d76a4ab4ee') };
+
 END_RESOURCE

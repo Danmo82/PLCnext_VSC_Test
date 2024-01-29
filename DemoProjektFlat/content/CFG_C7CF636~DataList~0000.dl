@@ -5115,6 +5115,44 @@
         <Constraint TypeName="Ade.DataList.Constraints.Unconnectable, Ade.DataListImpl" Parameters="Variable" />
       </Role>
     </Datum>
+    <Datum Uuid="dc2d7cbf-b357-4f84-b5c2-19b468b9b891">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="8c2fb631-464f-4947-b85b-4671668aba55" SourceId="0882766d-19b3-4bf4-879f-c34a591d80d4.L7_2">
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <IsOpc>False</IsOpc>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <ProgramInstance>Program11</ProgramInstance>
+        <DataType>INT</DataType>
+        <Program>Arp.Plc.Eclr / Program11</Program>
+        <Name>a</Name>
+        <Index />
+        <IsRedundant>False</IsRedundant>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsHmi>False</IsHmi>
+        <PortDataType>INT</PortDataType>
+        <IsProficloud>False</IsProficloud>
+      </Role>
+    </Datum>
+    <Datum Uuid="219f644e-5f32-4d34-a60b-bae28061e424">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="58f308eb-38b4-4e2e-a784-8be64adcf763" SourceId="0882766d-19b3-4bf4-879f-c34a591d80d4.L7_2">
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <IsOpc>False</IsOpc>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <ProgramInstance>Program11</ProgramInstance>
+        <DataType>INT</DataType>
+        <Program>Arp.Plc.Eclr / Program11</Program>
+        <Name>b</Name>
+        <Index />
+        <IsRedundant>False</IsRedundant>
+        <PortMultiplicity>1</PortMultiplicity>
+        <IsRetain>False</IsRetain>
+        <IsHmi>False</IsHmi>
+        <PortDataType>INT</PortDataType>
+        <IsProficloud>False</IsProficloud>
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/f54f4e22-f667-444a-b682-c778c067f90b" ObjectId="209fa326-7097-496d-aaef-c00a7b5bd22c" DisplayName="ao-1 - AO4 U 0-10" IsReadOnly="False">
         <RoleDatumUuid>cba4c6f1-df26-4afe-845c-3df03cc14bad</RoleDatumUuid>

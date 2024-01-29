@@ -13,6 +13,7 @@
 		<Task id="56cd51bd-0b73-4c8e-9c36-b204d7d981c2" name="Cyclic10" taskType="CyclicTask" priority="0" intervalTime="10000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="e27e0e5b-1523-435e-934c-743bb9678f25" readonly="False">
 			<ProgramInstances>
 				<ProgramInstance id="180ff404-687f-4fdb-93a3-0e7fab9798e5" name="Main1" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+				<ProgramInstance id="5d32030b-db1c-4267-a45b-17d76a4ab4ee" name="Program11" programType="PLCnextFirmwareLibrary2.Program1" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
 			</ProgramInstances>
 		</Task>
 	</Tasks>

@@ -1001,4 +1001,12 @@
          <ParentIndex>7</ParentIndex>
       </LocalResources>
    </ItemGroup>
+   <ItemGroup>
+      <SolutionReference Include="PLCnextFirmwareLibrary2">
+         <Id>697fa353-54f3-4fb1-ae6c-bdbeb9953a54</Id>
+         <HintPath>..\..\..\..\..\dkmd01\source\repos\PLCnextFirmwareLibrary2\PLCnextFirmwareLibrary2\bin\Debug\PLCnextFirmwareLibrary2.pcwlx</HintPath>
+         <LibraryId>970f6b71-c511-4821-b61d-0182b5a0b36e</LibraryId>
+         <ParentIndex>0</ParentIndex>
+      </SolutionReference>
+   </ItemGroup>
 </Project>
