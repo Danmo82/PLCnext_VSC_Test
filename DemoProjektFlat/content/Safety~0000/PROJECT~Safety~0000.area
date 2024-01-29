@@ -31,10 +31,38 @@
          <FolderType>PouFolder</FolderType>
          <ParentIndex>2</ParentIndex>
       </Folder>
+      <Folder Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\AXLF_Master\AXL_SE_PSDI8_3">
+         <Id>13a8dbe1-d5dd-47e9-883c-d0acc631b97b</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>c14fe77e-a29a-47de-81fb-b72110492ec1</InstanceId>
+         <TypeId>{e1be4b23-9b6f-4fc3-8347-c9da6b19de72}</TypeId>
+         <TypeName>AXL SE PSDI8/3</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\AXLF_Master\AXL_SE_PSDO4_2_2A">
+         <Id>ddb90dbe-b459-4899-8a17-3dec9ba0d382</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>d45b46a1-79fc-4b99-b665-fee7441079e5</InstanceId>
+         <TypeId>{7ebf4934-13ef-4139-910a-e8f38ae26ccf}</TypeId>
+         <TypeName>AXL SE PSDO4/2 2A</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
    </ItemGroup>
    <ItemGroup>
       <SafetyParameterDocument Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\0882766d-19b3-4bf4-879f-c34a591d80d4.spar">
          <Id>e69be35b-b7f8-47b7-9e9d-6fe72090e940</Id>
+         <ParentIndex>0</ParentIndex>
+      </SafetyParameterDocument>
+      <SafetyParameterDocument Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\AXLF_Master\AXL_SE_PSDI8_3\c14fe77e-a29a-47de-81fb-b72110492ec1.spar">
+         <Id>3bb097dd-95ac-4a62-bf1e-2b7d6b0e05e7</Id>
+         <ParentIndex>0</ParentIndex>
+      </SafetyParameterDocument>
+      <SafetyParameterDocument Include="Hardware\CFG_C7CF6366E90044738FA199D75C1F1211\AXLF_Master\AXL_SE_PSDO4_2_2A\d45b46a1-79fc-4b99-b665-fee7441079e5.spar">
+         <Id>5885822a-44e9-416a-bd4b-73640e11b93d</Id>
          <ParentIndex>0</ParentIndex>
       </SafetyParameterDocument>
    </ItemGroup>

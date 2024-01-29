@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="c14fe77e-a29a-47de-81fb-b72110492ec1">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/d83e72bc-eb53-4047-b779-a70756c8a100/e1be4b23-9b6f-4fc3-8347-c9da6b19de72" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/13a8dbe1-d5dd-47e9-883c-d0acc631b97b</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">AXL SE PSDI8/3</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">AXL SE PSDI8/3 Rev. &gt;= 00/1.00</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">f1797e81-9b4f-4173-8610-10d1f2591c53</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/InstanceObjList/Obj[@uID='axlfd00' type='AXLF:ConsecutiveNumber']" Type="Ade.Fdcml.Core.Signed32">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/InstanceObjList/Obj[@uID='axlfd01' type='AXLF:NodeID']" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6' type='PN:FDestAdd']" Type="Ade.Fdcml.Core.Unsigned32">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_00']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_01']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_02']/Current" Type="Ade.Fdcml.Core.BitStringX">10</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_04']/Current" Type="Ade.Fdcml.Core.BitStringX">10</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_06']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_07']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_10']/Current" Type="Ade.Fdcml.Core.BitStringX">000</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_13']/Current" Type="Ade.Fdcml.Core.BitStringX">001</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_16']/Current" Type="Ade.Fdcml.Core.BitStringX">01</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_20']/Current" Type="Ade.Fdcml.Core.BitString16">0400</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_40']/Current" Type="Ade.Fdcml.Core.BitString16">0001</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_60']/Current" Type="Ade.Fdcml.Core.BitString16">0096</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_80']/Current" Type="Ade.Fdcml.Core.BitString32">604A8651</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p80']/Para[@uID='p80_120']/Current" Type="Ade.Fdcml.Core.BitString16">FE1A</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_00']/Current" Type="Ade.Fdcml.Core.BitString16">0210</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_20']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_21']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_22']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_24']/Current" Type="Ade.Fdcml.Core.BitStringX">01</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_26']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_30']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_31']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_32']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_34']/Current" Type="Ade.Fdcml.Core.BitStringX">01</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_36']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_40']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_41']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_42']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_44']/Current" Type="Ade.Fdcml.Core.BitStringX">01</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_46']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_50']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_51']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_52']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_54']/Current" Type="Ade.Fdcml.Core.BitStringX">01</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='p8A']/Para[@uID='p8A_56']/Current" Type="Ade.Fdcml.Core.BitStringX">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pddq]" Type="System.String">~DI8</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd01]" Type="System.String">IN0 CH1/2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd02]" Type="System.String">IN0 CH2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd03]" Type="System.String">IN1 CH1/2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd04]" Type="System.String">IN1 CH2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd05]" Type="System.String">IN2 CH1/2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd06]" Type="System.String">IN2 CH2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd07]" Type="System.String">IN3 CH1/2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd08]" Type="System.String">IN3 CH2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd100]" Type="System.String">FTRAILIN</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd101]" Type="System.String">FTRAILOUT</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd102]" Type="System.String">FMSGIN</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pd103]" Type="System.String">FMSGOUT</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/SDA:Input" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/SDA:DiagInput" Type="Ade.Fdcml.Core.Unsigned32">2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/SDA:DiagOutput" Type="Ade.Fdcml.Core.Unsigned32">2</InstVal>
+  </DevInst>
+</DevInstDoc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SafetyMessageLog xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="Ade.Safety.Utilities.MessageLog/v1">
   <HashAlgorithmName>SHA256</HashAlgorithmName>
-  <Signature>TdMN0kW4AN44NCaEkcJ1/XJP9fb33zGy1jxq/gaJm4o=</Signature>
+  <Signature>J8W+GqoHJ2c/tIOlAI0cn7NbJ/Vxa6DzFIvzc9xkNIk=</Signature>
   <Entries>
     <LogEntry>
       <SeqNo>0</SeqNo>
@@ -34,6 +34,52 @@
         <DomainId>0B05D85D-74EB-4C04-BAE5-29B45D5D933F</DomainId>
         <MessageId>SCDP1003</MessageId>
         <CompleteMessage>The device 'axc-f-3152-2-1' has been inserted.</CompleteMessage>
+      </Entry>
+    </LogEntry>
+    <LogEntry>
+      <SeqNo>3</SeqNo>
+      <Entry xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sep.Persistence.Messaging">
+        <Type>Information</Type>
+        <TimeStamp>2024-01-29T11:03:20.6281599+01:00</TimeStamp>
+        <UserName>dkmd01</UserName>
+        <DomainId>0B05D85D-74EB-4C04-BAE5-29B45D5D933F</DomainId>
+        <MessageId>SCDP1010</MessageId>
+        <CompleteMessage>The device 'axc-f-3152-2-1 / do-1' has been replaced with 'AXL SE PSDI8/3'.</CompleteMessage>
+      </Entry>
+    </LogEntry>
+    <LogEntry>
+      <SeqNo>4</SeqNo>
+      <Entry xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sep.Persistence.Messaging">
+        <Type>Information</Type>
+        <TimeStamp>2024-01-29T11:03:20.6284467+01:00</TimeStamp>
+        <UserName>dkmd01</UserName>
+        <DomainId>0B05D85D-74EB-4C04-BAE5-29B45D5D933F</DomainId>
+        <MessageId>SCDP1013</MessageId>
+        <CompleteMessage>The device '{LongDeviceName}' has been inserted because of a replace of a parent device.
+The device parameters are initialized with default values!</CompleteMessage>
+      </Entry>
+    </LogEntry>
+    <LogEntry>
+      <SeqNo>5</SeqNo>
+      <Entry xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sep.Persistence.Messaging">
+        <Type>Information</Type>
+        <TimeStamp>2024-01-29T11:03:47.8169133+01:00</TimeStamp>
+        <UserName>dkmd01</UserName>
+        <DomainId>0B05D85D-74EB-4C04-BAE5-29B45D5D933F</DomainId>
+        <MessageId>SCDP1010</MessageId>
+        <CompleteMessage>The device 'axc-f-3152-2-1 / func-1' has been replaced with 'AXL SE PSDO4/2 2A'.</CompleteMessage>
+      </Entry>
+    </LogEntry>
+    <LogEntry>
+      <SeqNo>6</SeqNo>
+      <Entry xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sep.Persistence.Messaging">
+        <Type>Information</Type>
+        <TimeStamp>2024-01-29T11:03:47.8170562+01:00</TimeStamp>
+        <UserName>dkmd01</UserName>
+        <DomainId>0B05D85D-74EB-4C04-BAE5-29B45D5D933F</DomainId>
+        <MessageId>SCDP1013</MessageId>
+        <CompleteMessage>The device 'axc-f-3152-2-1 / sdo-1' has been inserted because of a replace of a parent device.
+The device parameters are initialized with default values!</CompleteMessage>
       </Entry>
     </LogEntry>
   </Entries>

@@ -2,20 +2,34 @@
 { CustomGroupDefinition('971398c9-e054-4349-a1d9-e00a1840c9f4', 'System Variables') }
 
 VAR_GLOBAL
-    FDEV_IN0 : SAFEBYTE { SystemVariable, FailsafeDevice('0.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('c7a8faff-99fe-4bb3-9cf6-05752bcb4197')};
-    FDEV_IN1 : SAFEBYTE { SystemVariable, FailsafeDevice('1.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('1af7b6c5-80db-4867-8a15-8ee64904d201')};
-    FDEV_IN2 : SAFEBYTE { SystemVariable, FailsafeDevice('2.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('020f694d-8cf3-42cd-948e-b8beb12383a6')};
-    FDEV_IN3 : SAFEBYTE { SystemVariable, FailsafeDevice('3.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('a9f7ab96-0ff0-4a18-b605-ba09168a9600')};
-    FDEV_IN4 : SAFEBYTE { SystemVariable, FailsafeDevice('4.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('dbd1117b-eb4f-4024-89ba-a5c873b340fa')};
-    FDEV_IN5 : SAFEBYTE { SystemVariable, FailsafeDevice('5.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('1beb3fa1-b01b-492e-948c-d96aa3f27229')};
-    FDEV_IN6 : SAFEBYTE { SystemVariable, FailsafeDevice('6.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('649571b5-13e5-4732-b7c6-c396e96c9296')};
-    FDEV_IN7 : SAFEBYTE { SystemVariable, FailsafeDevice('7.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), InputLocation } {Id('c19bac47-763a-44c6-a5b3-05624925d3b7')};
-    FDEV_OUT0 : SAFEBYTE { SystemVariable, FailsafeDevice('0.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('aa34af34-97f5-4047-aca3-ec1d8ea9abf9')};
-    FDEV_OUT1 : SAFEBYTE { SystemVariable, FailsafeDevice('1.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('1cf33b16-c46f-46f1-8e88-a8bc42ea1b1a')};
-    FDEV_OUT2 : SAFEBYTE { SystemVariable, FailsafeDevice('2.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('e6fd6796-0cf7-41c0-b2cd-1918911c0b3d')};
-    FDEV_OUT3 : SAFEBYTE { SystemVariable, FailsafeDevice('3.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('343c4a2e-f58c-4038-b276-9a87b0dd2c51')};
-    FDEV_OUT4 : SAFEBYTE { SystemVariable, FailsafeDevice('4.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('843ab454-20b3-4456-95d1-b1e65bd55ef3')};
-    FDEV_OUT5 : SAFEBYTE { SystemVariable, FailsafeDevice('5.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('5929e4e4-5fd6-4cd7-a7df-009f39b788f1')};
-    FDEV_OUT6 : SAFEBYTE { SystemVariable, FailsafeDevice('6.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('1625f7b0-763d-471e-a54f-0d9695e724f6')};
-    FDEV_OUT7 : SAFEBYTE { SystemVariable, FailsafeDevice('7.0'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), OutputLocation } {Id('df92b4c3-0aac-4e19-bdb4-8123dcd7f52d')};
+    FDEV_IN0 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('0.0'), SystemVariable, InputLocation } {Id('c7a8faff-99fe-4bb3-9cf6-05752bcb4197')};
+    FDEV_IN1 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('1.0'), SystemVariable, InputLocation } {Id('1af7b6c5-80db-4867-8a15-8ee64904d201')};
+    FDEV_IN2 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('2.0'), SystemVariable, InputLocation } {Id('020f694d-8cf3-42cd-948e-b8beb12383a6')};
+    FDEV_IN3 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('3.0'), SystemVariable, InputLocation } {Id('a9f7ab96-0ff0-4a18-b605-ba09168a9600')};
+    FDEV_IN4 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('4.0'), SystemVariable, InputLocation } {Id('dbd1117b-eb4f-4024-89ba-a5c873b340fa')};
+    FDEV_IN5 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('5.0'), SystemVariable, InputLocation } {Id('1beb3fa1-b01b-492e-948c-d96aa3f27229')};
+    FDEV_IN6 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('6.0'), SystemVariable, InputLocation } {Id('649571b5-13e5-4732-b7c6-c396e96c9296')};
+    FDEV_IN7 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('7.0'), SystemVariable, InputLocation } {Id('c19bac47-763a-44c6-a5b3-05624925d3b7')};
+    FDEV_OUT0 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('0.0'), SystemVariable, OutputLocation } {Id('aa34af34-97f5-4047-aca3-ec1d8ea9abf9')};
+    FDEV_OUT1 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('1.0'), SystemVariable, OutputLocation } {Id('1cf33b16-c46f-46f1-8e88-a8bc42ea1b1a')};
+    FDEV_OUT2 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('2.0'), SystemVariable, OutputLocation } {Id('e6fd6796-0cf7-41c0-b2cd-1918911c0b3d')};
+    FDEV_OUT3 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('3.0'), SystemVariable, OutputLocation } {Id('343c4a2e-f58c-4038-b276-9a87b0dd2c51')};
+    FDEV_OUT4 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('4.0'), SystemVariable, OutputLocation } {Id('843ab454-20b3-4456-95d1-b1e65bd55ef3')};
+    FDEV_OUT5 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('5.0'), SystemVariable, OutputLocation } {Id('5929e4e4-5fd6-4cd7-a7df-009f39b788f1')};
+    FDEV_OUT6 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('6.0'), SystemVariable, OutputLocation } {Id('1625f7b0-763d-471e-a54f-0d9695e724f6')};
+    FDEV_OUT7 : SAFEBYTE { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), FailsafeDevice('7.0'), SystemVariable, OutputLocation } {Id('df92b4c3-0aac-4e19-bdb4-8123dcd7f52d')};
+    F_ADDR_00001_ACK_REI AT %QX3.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, OutputLocation, DiagnosticAddress } {Id('2748e904-923f-4c17-b86e-79d7d7f4e1ae')};
+    F_ADDR_00001_ACK_REQ AT %IX3.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('f0deb58e-331a-4ac8-8c70-a4b64f88a0d0')};
+    F_ADDR_00001_CE_CRC AT %IX2.2 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('9f636cb8-6fc3-4953-8bd7-d34063e6b9fc')};
+    F_ADDR_00001_DEVICE_FAULT AT %IX2.1 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('a15d82bc-188c-4d9f-bdea-c6c3b01c7c4b')};
+    F_ADDR_00001_PASS_ON AT %QX2.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, OutputLocation, DiagnosticAddress } {Id('8635acde-9092-4816-b083-36aca9a689a2')};
+    F_ADDR_00001_PASS_OUT AT %IX2.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('0d936572-2adb-4f3a-a37f-b70a69063c10')};
+    F_ADDR_00001_WD_TIMEOUT AT %IX2.3 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('a333b606-7aaa-444e-8f67-8e55192bf9e3')};
+    F_ADDR_00002_ACK_REI AT %QX5.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, OutputLocation, DiagnosticAddress } {Id('0c6ab12b-ad80-40bb-8f74-fc3fc62c6a9a')};
+    F_ADDR_00002_ACK_REQ AT %IX5.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('4fd932f0-4904-4e14-b941-29b09bf7dabf')};
+    F_ADDR_00002_CE_CRC AT %IX4.2 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('e80accf6-5b28-44b9-a788-1c200f3237b2')};
+    F_ADDR_00002_DEVICE_FAULT AT %IX4.1 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('ee988a8a-cea0-4c36-a3c0-b67fc33acc1b')};
+    F_ADDR_00002_PASS_ON AT %QX4.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, OutputLocation, DiagnosticAddress } {Id('36b7c419-917f-430c-99f4-7cbadde1d1ea')};
+    F_ADDR_00002_PASS_OUT AT %IX4.0 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('91f06607-b4cd-4497-9a67-8028a7b06f35')};
+    F_ADDR_00002_WD_TIMEOUT AT %IX4.3 : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable, DiagnosticAddress, InputLocation } {Id('c7e42eef-849c-425c-b2a1-ba1f143bec70')};
 END_VAR
